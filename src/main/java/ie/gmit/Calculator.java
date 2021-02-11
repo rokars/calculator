@@ -10,6 +10,7 @@ public class Calculator {
         y = 1;
     }
 
+    // this method will ad two numbers
     public void add(int firstNum, int secondNum) {
 
     }

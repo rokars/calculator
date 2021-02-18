@@ -26,4 +26,11 @@ public class CalculatorTest {
         double result = calculator.divide(10, 100);
         assertEquals(10, result, 0);
     }
+
+    @Test
+    void testMul() {
+        Calculator calculator = new Calculator();
+        double result = calculator.multiply(10, 10);
+        assertEquals(100, result, 0);
+    }
 }

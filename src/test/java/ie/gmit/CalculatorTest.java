@@ -19,4 +19,11 @@ public class CalculatorTest {
         double result = calculator.subtract(20, 500);
         assertEquals(480, result, 0);
     }
+
+    @Test
+    void testDiv() {
+        Calculator calculator = new Calculator();
+        double result = calculator.divide(10, 100);
+        assertEquals(10, result, 0);
+    }
 }

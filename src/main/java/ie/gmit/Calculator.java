@@ -20,4 +20,8 @@ public class Calculator {
         return secondNum - firstNum;
     }
 
+    // this method will divide two numbers
+    public double divide(int firstNum, int secondNum) {
+        return secondNum / firstNum;
+    }
 }

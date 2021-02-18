@@ -13,5 +13,10 @@ public class CalculatorTest {
         assertEquals(60, result, 0);
     }
 
-
+    @Test
+    void testSub() {
+        Calculator calculator = new Calculator();
+        double result = calculator.subtract(20, 500);
+        assertEquals(480, result, 0);
+    }
 }

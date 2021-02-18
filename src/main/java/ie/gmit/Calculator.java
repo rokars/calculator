@@ -15,5 +15,9 @@ public class Calculator {
         return firstNum + secondNum;
     }
 
+    // this method will subtract two numbers
+    public double subtract(int firstNum, int secondNum) {
+        return secondNum - firstNum;
+    }
 
 }

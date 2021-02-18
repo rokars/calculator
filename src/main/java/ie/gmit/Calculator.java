@@ -10,8 +10,10 @@ public class Calculator {
         y = 1;
     }
 
-    // this method will ad two numbers
-    public void add(int firstNum, int secondNum) {
-
+    // this method will add two numbers
+    public double add(int firstNum, int secondNum) {
+        return firstNum + secondNum;
     }
+
+
 }
